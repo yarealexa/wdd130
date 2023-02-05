@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Staatliches&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
 
-body{background-color:#fcfbfb}
+body{
+    background-color:#fcfbfb;
+    margin: 0;
+    padding: 0;
+}
 
 nav a {
     color:#fcfbfb;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -24,13 +32,9 @@ nav a {
 main section {
     text-align: center;
 }
-
-nav a:hover
-{background-color: black
+#background {
+    height: 725px
 }
-main section 
-
-#background {height: 725px}
 
 header{
     background-color:#0D1930
@@ -40,14 +44,24 @@ nav a:hoover {
     background-color: #0D1930;
 }
 .book {
-    color: #fcfbfb;
-    background-color: #fcfbfb;
+    color: #0D1930;
+    background-color: #B6D0F6;
     text-decoration: none;
+    font-family:'Libre Baskerville', serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     color:#fcfbfb;
     background-color: #0D1930;
     text-decoration: none;
+    font-family:'Libre Baskerville', serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hoover {
     color: #fcfbfb;
@@ -64,23 +78,33 @@ nav a:hoover {
 }
 .msg {
     color: #0D1930;
-    background-color: beige;
+    background-color: rgb(232, 232, 190);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     color:#0D1930;
-    background-color: beige;
+    background-color: rgb(232, 232, 190);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h4{
     color: #0D1930
 }
 .home-title {
-    color: #fcfbfb;
+    color: #0D1930;
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color: #0D1930;
 }
 .msg p {
-color:#0D1930;
+    color:#0D1930;
+    font-family:'Libre Baskerville', serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color:#0D1930;
@@ -94,6 +118,7 @@ footer a:hoover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -101,10 +126,32 @@ footer a:hoover {
 footer p{
     font-size: 1.2em;
 }
-footer p a:hoover{ text-decoration: none;}
-
-
-
-
+footer p a:hoover{
+    text-decoration: none;
+}
+h2{
+    margin: 0;
+}
+#logo_link {
+padding-top: 5px;
+}
+.social img {
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-image {
+    border: 10px solid #0D1930;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 
