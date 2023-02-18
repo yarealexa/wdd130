@@ -22,7 +22,7 @@ height: 200px;
 background-color: gold; 
 } 
 .blue1 {
-width: 100%; 
+width: 100px; 
 height: 100px; 
 background-color: blue; 
 grid-column: 1/3;
