@@ -22,7 +22,7 @@ height: 200px;
 background-color: gold; 
 } 
 .blue1 {
-width: 100px; 
+width: 11   00px; 
 height: 100px; 
 background-color: blue; 
 grid-column: 1/3;
@@ -63,31 +63,33 @@ margin-top: 0em;
  /* Activity 3 styles */ 
     .content3 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-column-gap: 20px;
     /* This is the parent of the activity 3 boxes. */
     }
 .red3 {
-width: 575px; 
+width: 1020px; 
 height: 100px; 
 background-color: red;
-grid-column: 1/3;
+grid-column: 1/11;
 }
 .green3 {
-width: 275px; 
-height: 100px; 
+width: 450px; 
+height: 200px; 
 background-color: green;
+grid-column: 1/4;
  } 
 .yellow3 {
-width: 275px; 
-height: 100px; 
+width: 450px; 
+height: 200px; 
 background-color: gold; 
+grid-column: 5/11;
  } 
 .blue3 {
-width: 575px;
+width: 1020px;
 height: 100px; 
 background-color: blue;
-grid-column: 1/3;
+grid-column: 1/11;
 
  } 
  /* Activity 4 styles */ 
@@ -173,9 +175,8 @@ z-index: 1;
 width: 200px; 
 height: 400px; 
 background-color: gold; 
-grid-column: 3/4;
 grid-row: 3/span 7;
-grid-column: 5/7;
+grid-column: 4/7;
 z-index: 1;
 } 
 .blue6 {
